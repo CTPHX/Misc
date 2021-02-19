@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "Phoenix Lighthouse Connection"
+        },
+        "mspOfferDescription": {
+            "value": "Phoenix Lighthouse Connection"
+        },
+        "managedByTenantId": {
+            "value": "2ec57e94-f52a-4588-b969-f463bf4ddcfc"
+        },
+        "authorizations": {
+            "value": [
+                {
+                      "principalId": "XXXX-XXXX-XXXX-XXXX", 
+                      "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c", 
+                      "principalIdDisplayName": "Azure-MSC-XXXX-Contributor" 
+                },
+                {
+                      "principalId": "XXXX-XXXX-XXXX-XXXX", 
+                      "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7", 
+                      "principalIdDisplayName": "Azure-MSC-XXXX-Reader" 
+                },
+
+                           ]
+        }
+    }
+}
